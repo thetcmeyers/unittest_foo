@@ -20,7 +20,7 @@ class TestCase(unittest.TestCase):
     def test_average2(self):
         self.assertEqual(foo.average([]),None)
     def test_average3(self):
-        self.assertEqual(foo.average([1,2,3,7,8,9]),5)
+        self.assertEqual(foo.average([1,4,10,7,8,9]),6.5)
     #try negative
     def test_average4(self):
         self.assertEqual(foo.average([-1,-2,-3,-7,-8,-9]),-5)
